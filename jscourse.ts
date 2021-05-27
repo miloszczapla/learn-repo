@@ -68,6 +68,42 @@ result += resultNum;
 
 result = `name have: ${resultNum} letters`;
 
-console.log(resultNum);
+// Arrays
 
-console.log(result);
+console.log('----- Arrays ------');
+
+
+let cities: string[] = ['Wroclaw', 'Berlin', 'Pekin'];
+let streets: string[] = ['Brochow', 'Victory'];
+let population: number[] = [0.5, 1, 12];
+
+result = cities[1];
+resultNum = population[1]
+
+let resultArray: string[];
+
+let output: string;
+output = result +' '+ resultNum;
+
+result = cities.join(" ");
+
+output = cities[resultNum].indexOf('n').toString();
+
+resultNum = cities.indexOf('Wroclaw');
+
+resultArray = cities.concat(streets)
+
+
+resultNum = resultArray.push('Wielka');
+
+result = resultArray.pop();
+
+
+console.log('resultArray: '+resultArray);
+
+
+console.log('resultNum: '+resultNum);
+
+console.log('result: '+result);
+
+console.log('output: '+output);
