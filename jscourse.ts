@@ -65,10 +65,9 @@ resultNum = pi % 3;
 resultNum += radius;
 
 result += resultNum;
+
+result = `name have: ${resultNum} letters`;
+
 console.log(resultNum);
 
 console.log(result);
-
-
-
-
