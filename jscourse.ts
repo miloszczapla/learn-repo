@@ -96,8 +96,25 @@ resultArray = cities.concat(streets)
 
 resultNum = resultArray.push('Wielka');
 
-result = resultArray.pop();
+// result = resultArray.pop();
 
+// booleans
+
+let resultBool: boolean;
+
+resultBool = mail.includes('@');
+resultBool = mail.includes('1');
+
+resultBool = Boolean(resultNum);
+
+resultNum = 25;
+result = '25';
+resultBool = (result == resultNum.toString());
+
+console.log('----- boolean ------');
+
+
+console.log('resultBool: '+resultBool);
 
 console.log('resultArray: '+resultArray);
 
@@ -106,4 +123,4 @@ console.log('resultNum: '+resultNum);
 
 console.log('result: '+result);
 
-console.log('output: '+output);
+console.log('output: ' + output);
