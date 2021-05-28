@@ -34,3 +34,25 @@ console.log('Sqt area = ' + area);
 console.log('Sqt circuit = ' + calcSqtcircuit(4));
 const myFunc = (callBackFun) => callBackFun ** 2;
 console.log(myFunc(() => 23));
+console.log('------ Objects -------');
+;
+let user = {
+    name: 'Adam',
+    age: 32,
+    eamil: 'adam@mail.com',
+    city: null,
+    score: null,
+    married: false,
+    introduceYourSelf: function () {
+        console.log(`Your name is ${this.name} and you are ${this.age}, living in ${this.city} writing mails from ${this.eamil}. You are married ${this.married} and have life score of ${this.score}`);
+    }
+};
+const listInfo = (user) => {
+    console.log(`Your name is ${user.name} and you are ${user.age}, living in ${user.city} writing mails from ${user.eamil}. You are married ${user.married} and have life score of ${user.score}`);
+};
+user.introduceYourSelf();
+let number = 10.3;
+console.log(Math.round(number));
+let random = Math.random();
+console.log(random);
+console.log(Math.round(random * 100));
