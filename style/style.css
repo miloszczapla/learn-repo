@@ -54,3 +54,7 @@
 .todos-grid .post-counter span:nth-child(2) {
   color: #a82020;
 }
+
+.post-img {
+  height: 60px;
+}
